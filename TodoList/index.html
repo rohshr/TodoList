@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="assets/css/todos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <script src="assets/js/lib/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <input type="text" name="list-title" id="list-title" value="To-do List">
+        <ul id="list">
+            <li>Go running<span class="delete"><i class="far fa-trash-alt"></i></span></li>
+            <li>Make pasta<span class="delete"><i class="far fa-trash-alt"></i></span></li>
+            <li>Read two chapters<span class="delete"><i class="far fa-trash-alt"></i></span></li>
+        </ul>
+    </div>
+    <div id="input-container">
+        <input type="text" name="new-todo" id="new-todo" placeholder="Add new task"><span id="add"><i class="far fa-plus-square"></i></span>
+    </div>
+    <script src="assets/js/todos.js"></script>
+</body>
+</html>
